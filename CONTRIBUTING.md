@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping make this a useful, welcoming directory of GitHub profiles and profile README examples. Contributions can add your own public profile, nominate another developer, improve a description, or fix project documentation.
+Thanks for helping make this a useful, welcoming directory of GitHub profiles and profile README examples. Contributions can add your own public profile, suggest another profile with the owner's explicit permission, improve a description, or fix project documentation.
 
 ## Add or suggest a profile
 
@@ -40,7 +40,7 @@ The automated pull request check runs the same consistency check. Do not manuall
 ## Profile guidelines
 
 - There is no follower, star, employer, or experience-level threshold.
-- Submitting your own profile is encouraged. You may also nominate another public profile.
+- Submit your own profile, or get explicit permission from the owner before suggesting someone else's. Confirm permission in the pull request or issue.
 - Keep names, focus areas, and descriptions accurate, concise, and respectful.
 - Describe a visible profile feature, project, or contribution. Avoid unverifiable rankings, inflated claims, and promotional copy.
 - Do not add private contact details, copied profile text, tracking links, or content the profile owner does not have permission to share.

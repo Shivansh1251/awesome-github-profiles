@@ -15,7 +15,7 @@ Looking for the best GitHub profiles for inspiration? Start with the examples be
 
 ## Featured GitHub profiles
 
-Each preview uses the profile's public GitHub avatar and links directly to that profile. The directory is maintained in [profiles.json](profiles.json).
+Each preview links directly to the profile. The directory is maintained in [profiles.json](profiles.json), and profiles are included only with the owner's submission or explicit permission.
 
 <!-- PROFILE-LIST:START -->
 <table>
@@ -33,24 +33,6 @@ Each preview uses the profile's public GitHub avatar and links directly to that 
 <td><a href="https://github.com/Shivansh1251"><strong>Shivansh Garg</strong></a><br /><code>@Shivansh1251</code></td>
 <td>Project maintainer</td>
 <td>Maintainer of this directory and its first featured profile.</td>
-</tr>
-<tr>
-<td align="center"><a href="https://github.com/anuraghazra"><img src="https://github.com/anuraghazra.png?size=96" width="64" height="64" alt="GitHub avatar for anuraghazra" /></a></td>
-<td><a href="https://github.com/anuraghazra"><strong>Anurag Hazra</strong></a><br /><code>@anuraghazra</code></td>
-<td>Profile README tools</td>
-<td>Created GitHub Readme Stats, which renders activity cards for profile READMEs.</td>
-</tr>
-<tr>
-<td align="center"><a href="https://github.com/DenverCoder1"><img src="https://github.com/DenverCoder1.png?size=96" width="64" height="64" alt="GitHub avatar for DenverCoder1" /></a></td>
-<td><a href="https://github.com/DenverCoder1"><strong>DenverCoder1</strong></a><br /><code>@DenverCoder1</code></td>
-<td>Profile README tools</td>
-<td>Created GitHub Readme Streak Stats, a contribution-streak card for profile READMEs.</td>
-</tr>
-<tr>
-<td align="center"><a href="https://github.com/rahuldkjain"><img src="https://github.com/rahuldkjain.png?size=96" width="64" height="64" alt="GitHub avatar for rahuldkjain" /></a></td>
-<td><a href="https://github.com/rahuldkjain"><strong>Rahul Jain</strong></a><br /><code>@rahuldkjain</code></td>
-<td>Profile README tools</td>
-<td>Created GitHub Profile README Generator, a tool for assembling personalized profile READMEs.</td>
 </tr>
 </tbody>
 </table>
@@ -71,7 +53,7 @@ There is no minimum follower count, star count, employer, or experience level. S
 
 ## Submit a GitHub profile
 
-Open a pull request that adds one entry to [profiles.json](profiles.json). Profile owners are encouraged to submit their own profile. You can also [suggest a profile with an issue](https://github.com/Shivansh1251/Awesome-github-profiles/issues/new?template=suggest-a-profile.yml).
+Open a pull request that adds one entry to [profiles.json](profiles.json). Submit your own profile, or get the profile owner's explicit permission before suggesting someone else. You can [suggest a profile with an issue](https://github.com/Shivansh1251/Awesome-github-profiles/issues/new?template=suggest-a-profile.yml).
 
 1. Fork this repository and create a branch.
 2. Add the GitHub username, display name, focus, and a short factual description to profiles.json.
@@ -108,7 +90,7 @@ No. We do not use follower counts, stars, or repository totals as entry requirem
 
 ### Can I nominate someone else's GitHub profile?
 
-Yes. Link to their public profile and explain what is useful about it. Keep the description factual and respectful. Profile owners can request edits or removal.
+Only with the profile owner's explicit permission. Link to their public profile, describe it factually, and confirm permission in the pull request or issue. Profile owners can request edits or removal at any time.
 
 ### Is this a ranked list?
 

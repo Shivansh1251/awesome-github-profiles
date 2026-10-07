@@ -17,7 +17,7 @@ DATA_PATH = ROOT / "profiles.json"
 README_PATH = ROOT / "README.md"
 START_MARKER = "<!-- PROFILE-LIST:START -->"
 END_MARKER = "<!-- PROFILE-LIST:END -->"
-USERNAME_PATTERN = re.compile(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?\\Z")
+USERNAME_PATTERN = re.compile(r"[A-Za-z0-9](?:[A-Za-z0-9-]{0,37}[A-Za-z0-9])?\Z")
 REQUIRED_FIELDS = {"username", "name", "category", "description"}
 FIELD_LIMITS = {"username": 39, "name": 80, "category": 48, "description": 240}
 

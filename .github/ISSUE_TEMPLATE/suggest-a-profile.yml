@@ -1,11 +1,11 @@
 name: Suggest a GitHub profile
-description: Submit your profile or nominate a public profile for the directory.
+description: Submit your profile or suggest another profile with the owner's permission.
 title: "[Profile suggestion]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Use this form to suggest a public GitHub profile. Please read the profile guidelines in CONTRIBUTING.md.
+        Use this form to suggest your own profile or another profile with the owner's explicit permission. Please read CONTRIBUTING.md.
   - type: input
     id: username
     attributes:
@@ -43,5 +43,5 @@ body:
     attributes:
       label: Checklist
       options:
-        - label: The profile is public and this suggestion follows the contribution guidelines.
+        - label: I am the profile owner, or I have the profile owner's explicit permission to suggest it.
           required: true
