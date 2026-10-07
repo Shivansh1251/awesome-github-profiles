@@ -1,0 +1,47 @@
+name: Suggest a GitHub profile
+description: Submit your profile or nominate a public profile for the directory.
+title: "[Profile suggestion]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to suggest a public GitHub profile. Please read the profile guidelines in CONTRIBUTING.md.
+  - type: input
+    id: username
+    attributes:
+      label: GitHub username
+      description: The username from the profile URL, without an @ sign.
+      placeholder: octocat
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Display name
+      description: The name shown on the GitHub profile.
+      placeholder: The Octocat
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Profile focus
+      description: A short category that helps readers browse.
+      placeholder: Open-source maintainer
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this profile useful?
+      description: Point to a public profile README, project, or contribution readers can learn from.
+      placeholder: "This profile is a useful example because..."
+    validations:
+      required: true
+  - type: checkboxes
+    id: guidelines
+    attributes:
+      label: Checklist
+      options:
+        - label: The profile is public and this suggestion follows the contribution guidelines.
+          required: true

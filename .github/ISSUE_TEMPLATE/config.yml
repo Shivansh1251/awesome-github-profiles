@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Contribution guidelines
+    url: https://github.com/Shivansh1251/Awesome-github-profiles/blob/main/CONTRIBUTING.md
+    about: Read how to add or nominate a GitHub profile.

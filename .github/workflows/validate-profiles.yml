@@ -1,0 +1,35 @@
+name: Validate profile directory
+
+on:
+  pull_request:
+    paths:
+      - "profiles.json"
+      - "README.md"
+      - "scripts/**"
+      - ".github/workflows/validate-profiles.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "profiles.json"
+      - "README.md"
+      - "scripts/**"
+      - ".github/workflows/validate-profiles.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Check profile data and generated README
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Check profile data and README
+        run: python scripts/build_readme.py --check

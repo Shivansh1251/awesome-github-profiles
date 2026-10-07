@@ -1,0 +1,26 @@
+[
+  {
+    "username": "Shivansh1251",
+    "name": "Shivansh Garg",
+    "category": "Project maintainer",
+    "description": "Maintainer of this directory and its first featured profile."
+  },
+  {
+    "username": "rahuldkjain",
+    "name": "Rahul Jain",
+    "category": "Profile README tools",
+    "description": "Created GitHub Profile README Generator, a tool for assembling personalized profile READMEs."
+  },
+  {
+    "username": "anuraghazra",
+    "name": "Anurag Hazra",
+    "category": "Profile README tools",
+    "description": "Created GitHub Readme Stats, which renders activity cards for profile READMEs."
+  },
+  {
+    "username": "DenverCoder1",
+    "name": "DenverCoder1",
+    "category": "Profile README tools",
+    "description": "Created GitHub Readme Streak Stats, a contribution-streak card for profile READMEs."
+  }
+]
