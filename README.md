@@ -34,6 +34,12 @@ Each preview links directly to the profile. The directory is maintained in [prof
 <td>Project maintainer</td>
 <td>Maintainer of this directory and its first featured profile.</td>
 </tr>
+<tr>
+<td align="center"><a href="https://github.com/Manav-Gupta08"><img src="https://github.com/Manav-Gupta08.png?size=96" width="64" height="64" alt="GitHub avatar for Manav-Gupta08" /></a></td>
+<td><a href="https://github.com/Manav-Gupta08"><strong>Manav Gupta</strong></a><br /><code>@Manav-Gupta08</code></td>
+<td>Secure Software Development</td>
+<td>Highlights practical backend engineering and secure software development with curated tech stack badges and active activity stats.</td>
+</tr>
 </tbody>
 </table>
 <!-- PROFILE-LIST:END -->
